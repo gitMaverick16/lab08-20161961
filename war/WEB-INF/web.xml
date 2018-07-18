@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>KidsControllerAdd</servlet-name>
+		<servlet-class>controller.kids.KidsControllerAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KidsControllerAdd</servlet-name>
+		<url-pattern>/kids/add</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>KidsControllerIndex</servlet-name>
+		<servlet-class>controller.kids.KidsControllerIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KidsControllerIndex</servlet-name>
+		<url-pattern>/kids</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>KidsControllerView</servlet-name>
+		<servlet-class>controller.kids.KidsControllerView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KidsControllerView</servlet-name>
+		<url-pattern>/kids/view</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>KidsControllerDelete</servlet-name>
+		<servlet-class>controller.kids.KidsControllerDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KidsControllerDelete</servlet-name>
+		<url-pattern>/kids/delete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>KidsControllerUpdate</servlet-name>
+		<servlet-class>controller.kids.KidsControllerUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KidsControllerUpdate</servlet-name>
+		<url-pattern>/kids/update</url-pattern>
+	</servlet-mapping>
+	
+	
+	   
+	   
+	   
+	   
+	   <servlet>
+		<servlet-name>HomeworksControllerAdd</servlet-name>
+		<servlet-class>controller.homeworks.HomeworksControllerAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomeworksControllerAdd</servlet-name>
+		<url-pattern>/homeworks/add</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>HomeworksControllerIndex</servlet-name>
+		<servlet-class>controller.homeworks.HomeworksControllerIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomeworksControllerIndex</servlet-name>
+		<url-pattern>/homeworks</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>HomeworksControllerUpdate</servlet-name>
+		<servlet-class>controller.homeworks.HomeworksControllerUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomeworksControllerUpdate</servlet-name>
+		<url-pattern>/homeworks/update</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>HomeworksControllerDelete</servlet-name>
+		<servlet-class>controller.homeworks.HomeworksControllerDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomeworksControllerDelete</servlet-name>
+		<url-pattern>/homeworks/delete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>HomeworksControllerView</servlet-name>
+		<servlet-class>controller.homeworks.HomeworksControllerView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomeworksControllerView</servlet-name>
+		<url-pattern>/homeworks/view</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ListasControllerAdd</servlet-name>
+		<servlet-class>controller.listas.ListasControllerAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListasControllerAdd</servlet-name>
+		<url-pattern>/listas/add</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>ListasControllerIndex</servlet-name>
+		<servlet-class>controller.listas.ListasControllerIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListasControllerIndex</servlet-name>
+		<url-pattern>/listas</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>ListasControllerUpdate</servlet-name>
+		<servlet-class>controller.listas.ListasControllerUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListasControllerUpdate</servlet-name>
+		<url-pattern>/listas/update</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>ListasControllerDelete</servlet-name>
+		<servlet-class>controller.listas.ListasControllerDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListasControllerDelete</servlet-name>
+		<url-pattern>/listas/delete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ListasControllerView</servlet-name>
+		<servlet-class>controller.listas.ListasControllerView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListasControllerView</servlet-name>
+		<url-pattern>/listas/view</url-pattern>
+	</servlet-mapping>
+	   
+	   
+	   
+	
+	
+
+	   
+	
+	
+	
+	<servlet>
+		<servlet-name>UsersControllerAdd</servlet-name>
+		<servlet-class>controller.users.UsersControllerAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerAdd</servlet-name>
+		<url-pattern>/users/add</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>UsersControllerIndex</servlet-name>
+		<servlet-class>controller.users.UsersControllerIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerIndex</servlet-name>
+		<url-pattern>/users</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>UsersControllerView</servlet-name>
+		<servlet-class>controller.users.UsersControllerView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerView</servlet-name>
+		<url-pattern>/users/view</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>UsersControllerDelete</servlet-name>
+		<servlet-class>controller.users.UsersControllerDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerDelete</servlet-name>
+		<url-pattern>/users/delete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UsersControllerUpdate</servlet-name>
+		<servlet-class>controller.users.UsersControllerUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerUpdate</servlet-name>
+		<url-pattern>/users/update</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UsersControllerLogin</servlet-name>
+		<servlet-class>controller.users.UsersControllerLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerLogin</servlet-name>
+		<url-pattern>/users/login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UsersControllerLogout</servlet-name>
+		<servlet-class>controller.users.UsersControllerLogout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerLogout</servlet-name>
+		<url-pattern>/users/logout</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>RolesControllerAdd</servlet-name>
+		<servlet-class>controller.roles.RolesControllerAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RolesControllerAdd</servlet-name>
+		<url-pattern>/roles/add</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>RolesControllerIndex</servlet-name>
+		<servlet-class>controller.roles.RolesControllerIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RolesControllerIndex</servlet-name>
+		<url-pattern>/roles</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>RolesControllerView</servlet-name>
+		<servlet-class>controller.roles.RolesControllerView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RolesControllerView</servlet-name>
+		<url-pattern>/roles/view</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>RolesControllerDelete</servlet-name>
+		<servlet-class>controller.roles.RolesControllerDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RolesControllerDelete</servlet-name>
+		<url-pattern>/roles/delete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RolesControllerUpdate</servlet-name>
+		<servlet-class>controller.roles.RolesControllerUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RolesControllerUpdate</servlet-name>
+		<url-pattern>/roles/update</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ResourcesControllerAdd</servlet-name>
+		<servlet-class>controller.resources.ResourcesControllerAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResourcesControllerAdd</servlet-name>
+		<url-pattern>/resources/add</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>ResourcesControllerIndex</servlet-name>
+		<servlet-class>controller.resources.ResourcesControllerIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResourcesControllerIndex</servlet-name>
+		<url-pattern>/resources</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>ResourcesControllerView</servlet-name>
+		<servlet-class>controller.resources.ResourcesControllerView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResourcesControllerView</servlet-name>
+		<url-pattern>/resources/view</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>ResourcesControllerDelete</servlet-name>
+		<servlet-class>controller.resources.ResourcesControllerDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResourcesControllerDelete</servlet-name>
+		<url-pattern>/resources/delete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ResourcesControllerUpdate</servlet-name>
+		<servlet-class>controller.resources.ResourcesControllerUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResourcesControllerUpdate</servlet-name>
+		<url-pattern>/resources/update</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>AccessControllerAdd</servlet-name>
+		<servlet-class>controller.access.AccessControllerAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccessControllerAdd</servlet-name>
+		<url-pattern>/access/add</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>AccessControllerIndex</servlet-name>
+		<servlet-class>controller.access.AccessControllerIndex</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccessControllerIndex</servlet-name>
+		<url-pattern>/access</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>AccessControllerView</servlet-name>
+		<servlet-class>controller.access.AccessControllerView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccessControllerView</servlet-name>
+		<url-pattern>/access/view</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>AccessControllerDelete</servlet-name>
+		<servlet-class>controller.access.AccessControllerDelete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccessControllerDelete</servlet-name>
+		<url-pattern>/access/delete</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AccessControllerUpdate</servlet-name>
+		<servlet-class>controller.access.AccessControllerUpdate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccessControllerUpdate</servlet-name>
+		<url-pattern>/access/update</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
